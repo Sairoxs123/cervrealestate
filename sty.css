@@ -1,0 +1,84 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.faq-heading{
+    border: 6px grey solid;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: grey;
+}
+.faq-container{
+    margin-left: 0px;
+}
+.hr-line{
+    margin-top: 10px;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 90%;
+    border: 1px solid grey;
+    outline: none;
+    transition: 0.4s;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: beige;
+    padding-right: 100px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+background-color: beige;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    display: none;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: white;
+    padding-top: 5px;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 90%;
+    padding-left: 25px;
+    padding-right: 95px;
+}
+
+.faq-page:hover ~ .faq-body{
+    display: block;
+}
+.faq-one, .faq-two, .faq-three{
+    margin-bottom: 15px;
+}
+ul{
+    list-style-type:none;
+    margin-top:10px;
+    padding-top:0px;
+    overflow:hidden;
+}
+li{
+    float:left;
+    opacity: 100%;
+}
+li a {
+    display:inline-block;
+    color:brown;
+    text-align:center;
+    padding:14px 20px;
+    font-weight: 900;
+    font-size: 25px;
+}
+li a:hover{
+    background-color:#111;
+}
+.li{
+    color:brown;
+    text-align:center;
+    padding:14px 20px;
+    font-weight: 900;
+    font-size: 25px;
+    float: left;
+}
